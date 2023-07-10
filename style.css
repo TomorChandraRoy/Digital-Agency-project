@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* start nev-bar */
+header {
+    display: block;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #969696;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.logo {
+    width: 200px;
+}
+
+.menu-container {
+    margin-left: 371px;
+}
+
+.items {
+    display: flex;
+    list-style: none;
+}
+
+.item {
+    margin-right: 10px;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* nav-bar close */
+/* banner start  */
+.banner-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url("background.jpg"), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+    background-blend-mode: overlay;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.digital-banner {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+div {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 100px;
+    font-weight: 900;
+    color: rgb(40, 161, 161);
+}
+
+.title-digital {
+    color: red;
+}
+
+.decription {
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+
+}
+
+.button {
+    padding: 10px;
+}
+
+.btn {
+    padding: 15px 35px;
+    font-size: 16px;
+    border: none;
+    margin: 5px;
+}
+
+.btn-more {
+    background-color: red;
+    color: white;
+}
+
+/* start services section  */
+.services-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url("footer-bg.png"), linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+    background-blend-mode: overlay;
+    color: white;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-service {
+    background-color: white;
+    color: gray;
+    border-radius: 25px;
+}
+
+.title-service {
+    font-size: 45px;
+    font-weight: bold;
+    padding: 7px;
+    color: rgb(190, 207, 208);
+}
+
+.description-service {
+    width: 75%;
+    font-size: 27px;
+    color: rgb(190, 207, 208);
+}
+
+.service-list {
+    list-style: decimal;
+    padding: 22px;
+    font-size: 18px;
+    color: rgb(190, 207, 208);
+}
+
+.author-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.author-details {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* padding: 7px; */
+    border-right: 1px solid rgb(245, 44, 44);
+}
+
+.author-details img {
+    width: 15%;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h6 {
+    display: block;
+    font-size: 0.67em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.more-details {
+    padding: 15px 30px;
+    margin-left: 5px;
+    border-radius: 25px;
+    background-color: none;
+    border: 1px solid rgb(51, 48, 48);
+    color: rgb(245, 44, 44);
+}
+
+.service-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.service {
+    box-shadow: 4px 4px 8px rgb(26, 24, 24);
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 50px;
+    text-align: center;
+    width: 234px;
+    height: 233px;
+    margin-right: 45px;
+}
+
+.service-logo {
+
+    width: 150px;
+    padding: 20px;
+
+}
+
+/* appointment-section */
+.appointment-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 75%;
+    padding: 15px;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: -80px;
+    color: white;
+
+}
+
+.call-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-right: 3px solid gray;
+}
+
+.appointment-logo {
+    width: 100px;
+    padding: 15px;
+
+}
+
+.apointment-descript {
+    margin-left: 10px;
+    text-align: justify;
+    width: 207%;
+    font-size: 18px;
+}
+
+.appointment-button {
+    padding: 50px;
+}
+
+.appointment-button button {
+    padding: 15px 50px;
+    border: none;
+    border-radius: 25px;
+}
+
+/* start Blog & News From Us */
+.blog-box {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.blogs-title {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.title-digital {
+    color: rgb(245, 44, 44);
+}
+
+.description-blog {
+    font-size: 22px;
+    width: 50%;
+    margin: auto;
+}
+
+.blogs {
+    margin-top: 32px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.blog {
+    width: 420px;
+    height: 510px;
+    background: white;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 10px;
+}
+
+.blog-img {
+    width: 420px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.blog-text {
+    padding: 15px;
+}
+
+.blog-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(54, 53, 53);
+}
+
+.blog-description {
+    font-size: 23px;
+    width: 100%;
+    color: rgb(76, 72, 72);
+    margin-top: 15px;
+}
+
+/* foother start  */
+footer {
+    width: 100%;
+    height: 80vh;
+    background-image: url(footer-bg.png), linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    color: white;
+    line-height: 1.8em;
+}
+
+.foother-container {
+    display: flex;
+    width: 75%;
+    height: 70vh;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px soild gray
+}
+
+.footer-title {
+    margin-bottom: 30px;
+}
+
+.logo-box {
+    width: 75%;
+}
+
+.logo-box img {
+    width: 170px;
+}
+
+.icons {
+    margin-top: 20px;
+    font-size: 23px;
+}
+
+.useful-links {
+    margin-left: 60px;
+
+
+}
+
+.copy {
+    text-align: center;
+    padding: 15px;
+}
+
+small {
+    font-size: smaller;
+}
+
+.icons .fa-brands {
+    padding: 0px 10px 0px 0px;
+}
+
+.author-details h4 {}
+
+.author-details h6 {}
